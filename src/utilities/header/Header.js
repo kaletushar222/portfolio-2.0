@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import {Container, Button} from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Header.css'
+import './header.css';
 
 export default class Header extends Component {
   render() {
@@ -16,10 +15,10 @@ export default class Header extends Component {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="me-auto">
+                <Nav>
                     <Nav.Link href="#features">Home</Nav.Link>
                     <Nav.Link href="#pricing">Portfolio</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

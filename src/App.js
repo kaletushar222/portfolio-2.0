@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './utilities/Header';
+import Header from './utilities/header/Header';
 
 function App() {
   return (
@@ -8,6 +8,12 @@ function App() {
       <header className="App-header">
         <Header/>
       </header>
+      <main>
+
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }

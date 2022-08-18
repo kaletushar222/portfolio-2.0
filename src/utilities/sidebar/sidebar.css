@@ -1,0 +1,4 @@
+.side-bar-class{ 
+    position : fixed;
+    height: calc(100vh);
+}

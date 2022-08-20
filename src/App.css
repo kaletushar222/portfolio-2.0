@@ -26,12 +26,17 @@
   }
 }
 
-
-body {
-  background-color: #282c34;
-}
-
 .main-content {
   margin-left: 270px;
   height: calc(100vh);
+}
+
+section {
+  height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+  .main-content {
+    margin-left: 17%;
+    height: calc(100vh);
+  }
 }

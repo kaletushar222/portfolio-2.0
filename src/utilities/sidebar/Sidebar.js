@@ -28,6 +28,9 @@ const Sidebar = () => {
 				<a href="#portfolio" activeClassName="activeClicked">
 					<CDBSidebarMenuItem icon="chart-line">Portfolio</CDBSidebarMenuItem>
 				</a>
+				<a  href="#projects" activeClassName="activeClicked">
+					<CDBSidebarMenuItem icon="angle-double-right">Projects</CDBSidebarMenuItem>
+				</a>
 				<a  href="#contact" activeClassName="activeClicked">
 					<CDBSidebarMenuItem icon="phone">Contact</CDBSidebarMenuItem>
 				</a>

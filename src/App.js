@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
+import Contact from './pages/contact/Contact';
 import Home from './pages/home/Home';
 import Portfolio from './pages/portfolio/Portfolio';
 import Sidebar from './utilities/sidebar/Sidebar';
-import Header from './utilities/header/Header';
 
 function App() {
   return (
@@ -19,8 +19,11 @@ function App() {
 					<section id="portfolio">
 						<Portfolio/>
 					</section>
+					<section id="projects">
+						<h1> Under development </h1>
+					</section>
 					<section id="contact">
-
+						<Contact />
 					</section>
 				</main>
 				<footer>

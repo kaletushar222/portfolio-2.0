@@ -34,9 +34,9 @@ const data_set = [
     },
     {
         id : 4,
-        tech : "ucd",
-        companies : ["accenture"],
-        label : "UCD",
+        tech : "materialize",
+        companies : ["procmart"],
+        label : "Materialize",
         variant : "info"
     },
     {
